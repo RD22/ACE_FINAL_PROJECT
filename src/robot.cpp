@@ -37,12 +37,6 @@ void rbt_move(direction_t new_dir, uint8_t speed)
         analogWrite(IN3, speed);
         analogWrite(IN4, 0);
         break;
-      case REV:
-        analogWrite(IN1, 0);
-        analogWrite(IN2, speed);
-        analogWrite(IN3, 0);
-        analogWrite(IN4, speed);
-        break;
       case SOFT_RIGHT:
         analogWrite(IN1, speed);
         analogWrite(IN2, 0);

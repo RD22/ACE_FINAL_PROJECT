@@ -11,7 +11,6 @@ typedef enum{
   LEFT,
   RIGHT,
   FWD,
-  REV,
   SOFT_LEFT,
   SOFT_RIGHT,
 }direction_t;
